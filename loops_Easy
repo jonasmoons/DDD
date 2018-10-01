@@ -1,0 +1,6 @@
+names = ["geert", "guus", "gerda"]
+
+for fullname in names:
+#create new variable for lenght of names
+    name_length = str(len(fullname))
+    print(fullname, name_length)
