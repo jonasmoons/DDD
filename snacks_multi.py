@@ -3,10 +3,6 @@ names =[
         ["guus"],
         ["gerda"]
         ]
-snacks = []
-
-
-
 
 for name in names:
     fullname = name[0]
@@ -17,8 +13,3 @@ for name in names:
     snack = input("Whats your favorite snack?")
     name.append(snack)
     print(name[0]+ " likes " + name[1])
-
-
-
-
-
