@@ -6,4 +6,5 @@ for name in names:
     names[name] = snack
    
 for name, snacky in names.items():
-	print(f"{name} likes {snacky}")
+	print(f"{name} likes {snacky} and the lenght of your name is {len(name)}")
+  
