@@ -1,0 +1,9 @@
+names = {"Geert" : "", "Guus" : "", "Gerda": ""}
+
+
+for name in names:
+    snack = input(f" {name} Whats your favorite snack?")
+    names[name] = snack
+   
+for name, snacky in names.items():
+	print(f"{name} likes {snacky}")
